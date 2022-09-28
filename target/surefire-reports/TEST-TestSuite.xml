@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.68" tests="10" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\selenium_workspace\MyMavenProject64"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\selenium_workspace\MyMavenProject64"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\akash\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-ant-1.10.12\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\apache-maven-3.8.6\bin;C:\Users\akash\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\akash\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\akash\AppData\Local\Microsoft\WindowsApps;C:\Users\akash\AppData\Roaming\npm;C:\Users\akash\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\akash"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="akash"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="abc" classname="tests.Testing1" time="0.008"/>
+  <testcase name="abc" classname="tests.Testing1" time="0.008"/>
+  <testcase name="test1" classname="tests.Testing1" time="0.001"/>
+  <testcase name="test2" classname="tests.Testing1" time="0.002"/>
+  <testcase name="test3" classname="tests.Testing2" time="0.001"/>
+  <testcase name="test4" classname="tests.Testing2" time="0.001"/>
+  <testcase name="createUser" classname="tests.Testing3" time="0.021">
+    <failure message="Verifying Element expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Verifying Element expected [true] but found [false]
+	at tests.Testing3.createUser(Testing3.java:17)
+</failure>
+    <system-out><![CDATA[I am in home Test
+Before Assertion
+]]></system-out>
+  </testcase>
+  <testcase name="editUser" classname="tests.Testing3" time="0">
+    <skipped message="Method Testing3.editUser()[pri:2, instance:tests.Testing3@12cdcf4] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="deleteUser" classname="tests.Testing3" time="0">
+    <skipped message="Method Testing3.deleteUser()[pri:3, instance:tests.Testing3@12cdcf4] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(tests.AppTest)" classname="tests.AppTest" time="0.001"/>
+</testsuite>
